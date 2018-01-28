@@ -1,0 +1,115 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.bodyStyle{
+  background-image: url('./1.png');
+}
+.dataStyle {
+  display: inline-block;
+  border: 1px solid #e4e4e4;
+  /* margin: 200px; */
+  width: 600px;
+  height: 750px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  margin : 10px;
+  background-color: #e4e4e4;
+  opacity: 0.7;
+  justify-content: space-around;
+  font-family: Courier;
+}
+
+.titleDataStyle {
+  color: rgb(4, 19, 99);
+  border-bottom: 1px solid rgb(236, 177, 177)
+}
+
+
+.dataStyle:hover {
+  background-color:lightgray;
+}
+
+.divStyle {
+  /*padding-top: 300px;*/
+  overflow: hidden;
+  z-index: inherit;
+}
+
+.filterStyle{
+  
+  margin-top: 30px
+}
+.headerStyle{
+  color: #4CAF50;
+  font-family : "Segoe UI",Arial,sans-serif;
+  font-size: 20px;
+  margin : 10px;
+  
+}
+
+.checkStyle{
+  margin-left: 20px
+}
+.checkStyle:hover{
+  color: #4CAF50;
+  font-weight: bold;
+}
+.leftdivStyle{
+  border : 1px solid #e4e4e4;
+}
+
+.check-with-label:checked + .label-for-check {
+  font-weight: bold;
+  color: #4CAF50;
+}
+.buttonStyle{
+  margin-left: 70px
+}
+
+
+.navStyle{
+  border-bottom: 1px solid #e4e4e4
+}
+
+.displayStyle{
+  font-weight: bold;
+}
+
+.formStyle{
+  margin-left:150px
+}
+
+.modalStyle{
+  height: 1000px;
+  width : 1000px
+}
+.imgStyle{
+  padding-top: 70px
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
